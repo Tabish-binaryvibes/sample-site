@@ -1,0 +1,56 @@
+.deal__container {
+    padding   : 6.25rem 0 6.25rem 0;
+    margin-top: 2.875rem;
+}
+
+.deals__heading h2 {
+    font-family: "jakartaBold";
+    font-size  : 3.75rem;
+    font-weight: 700;
+    line-height: 2.625rem;
+    text-align : center;
+}
+
+.deals__paragraph {
+    width        : 74%;
+    text-align   : center;
+    margin       : 0 auto;
+    margin-top   : 2.5rem;
+    margin-bottom: 3.75rem;
+}
+
+.view__more__padding {
+    margin-top: 4.375rem;
+}
+
+.view__more__container {
+    display        : flex;
+    justify-content: center;
+    align-items    : center
+}
+
+
+@media screen and (max-width:768px) {
+    .deals__heading h2 {
+        font-family   : "jakartaRegular";
+        font-size     : 28px;
+        font-weight   : 700;
+        line-height   : 42px;
+        letter-spacing: -2px;
+        margin-bottom : 4px !important;
+    }
+
+    .deals__paragraph {
+        width        : 100%;
+        margin-top   : 0;
+        margin-bottom: 0;
+        font-size: 0.75rem;
+    }
+
+    .deal__container {
+        padding: 1rem 0 1.25rem 0;
+    }
+    .view__more__padding {
+        margin-top: 1.5rem;
+    }
+}

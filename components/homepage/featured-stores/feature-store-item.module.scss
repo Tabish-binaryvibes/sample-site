@@ -1,0 +1,30 @@
+.store__item__container {
+    padding: 1.75rem; // was 2.75
+    border : 2.5px solid #E1E1E1;
+    cursor : pointer;
+    text-align: center;
+    margin-right: 1rem;
+    img{
+        height: 40px;
+        object-fit: contain;
+    }
+}
+
+@media screen and (max-width:1240px) {
+    .store__item__container {
+        padding-left  : 1rem;
+        padding-right : 1rem;
+        padding-top   : 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .store__item__container {
+        padding-left  : 1rem;
+        padding-right : 1rem;
+        padding-top   : 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+}

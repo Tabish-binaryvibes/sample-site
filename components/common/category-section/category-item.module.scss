@@ -1,0 +1,41 @@
+.category__item {
+    cursor: pointer;
+
+    .best__deals__text {
+        font-family: "jakartaRegular";
+        color      : #2F2F2F;
+        font-size  : 1rem;
+        font-weight: 600;
+        line-height: 21px;
+        width      : 80%;
+        margin     : 8px auto 0 auto;
+        cursor     : pointer;
+    }
+
+    &:hover img {
+        filter: invert(28%) sepia(81%) saturate(2371%) hue-rotate(4deg) brightness(93%) contrast(105%);
+    }
+
+    &:hover .best__deals__text {
+        color: #ED3D00;
+    }
+
+    &::after {
+        content   : '';
+        display   : block;
+        width     : 0;
+        height    : 4px;
+        background: #ED3D00;
+        transition: width .3s;
+    }
+
+    &:hover::after {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .best__deals__text {
+        font-size: 0.75rem;
+    }
+}

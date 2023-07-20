@@ -1,0 +1,55 @@
+@import './_main';
+@import './fonts';
+
+*,
+body {
+  font-family: "jakartaRegular";
+}
+
+.glide__bullets {
+  bottom: -1rem !important;
+}
+
+.glide__bullet {
+  width        : 8px;
+  height       : 8px;
+  border-radius: 8px;
+  opacity      : 0.4000000059604645px;
+  background   : linear-gradient(264.24deg, #D1D0CC 61.45%, #D2D1CC 93.85%) !important;
+}
+
+.glide__bullet--active {
+  width        : 80px !important;
+  height       : 8px !important;
+  left         : 36px !important;
+  border-radius: 8px !important;
+  background   : #40003A !important;
+}
+
+.glide__bullet:hover,
+.glide__bullet:focus {
+  border: none !important;
+}
+
+.glide__slide {
+  text-align: center;
+}
+
+.view__more__btn {
+  padding         : 0.5rem 7.1875rem 0.5rem 7.1875rem;
+  border-radius   : 10px;
+  background-color: #40003A;
+  color           : white;
+  font-weight     : 500;
+  outline         : none;
+  border          : none;
+}
+
+@media screen and (max-width:1200px) {
+  .view__more__btn {
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  }
+}
+
+
+

@@ -1,0 +1,39 @@
+.category__section__container {
+    margin-top   : 3.8125rem;
+    margin-bottom: 10px;
+}
+
+.view__more__category {
+    padding      : 5px 14.171px 6px 15.283px;
+    border-radius: 4px;
+    background   : #40003A;
+    color        : #FFF;
+    font-family  : "jakartaRegular";
+    font-size    : 1rem;
+    font-style   : normal;
+    font-weight  : 500;
+    line-height  : 21px;
+    border       : none;
+    margin-bottom: 1.875rem;
+}
+
+.category__section__false {
+    max-height: 0;
+    visibility: hidden;
+    transition: max-height 0.1s ease-out;
+}
+
+.category__section__true {
+    visibility: visible;
+    max-height: 500px;
+    transition: max-height 1s ease-in;
+}
+
+.bottom__border {
+    padding-bottom: 10px;
+    border-bottom : 2px solid #F6F7F9;
+}
+
+.rotateImage {
+    transform: rotate(180deg);
+}

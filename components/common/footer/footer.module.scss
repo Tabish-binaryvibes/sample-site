@@ -1,0 +1,64 @@
+$footer__bg__color: rgba(64, 0, 58, 1);
+
+.footer__main__container {
+    background-color: $footer__bg__color;
+    padding-top     : 4.9375rem;
+    padding-bottom  : 4.9375rem;
+
+    .website__log {
+        img {
+            width        : 180.2126922607422px;
+            height       : 58.6369743347168px;
+            margin-bottom: 1.875rem;
+        }
+    }
+
+    .website__para {
+        width: 70%;
+
+        p {
+            color      : #fff;
+            font-family: "jakartaRegular";
+            font-size  : 0.875rem;
+            line-height: 1.375rem;
+            text-align : left;
+        }
+    }
+
+    .social__icons__container {
+        display: flex;
+        gap    : 10px;
+
+        .social__icon {
+            cursor: pointer;
+        }
+    }
+
+    .footer__listItem__heading {
+        font-family: "jakartaRegular";
+        font-size  : 1rem;
+        font-weight: 700;
+        line-height: 1.5rem;
+        margin-top : 1rem;
+        text-align : left;
+        color      : #fff;
+    }
+
+    .list__item__container {
+        list-style: none;
+        padding   : 0;
+        margin    : 0;
+
+        li {
+            a {
+                text-decoration: none;
+                font-family    : "jakartaRegular";
+                font-size      : 0.875rem;
+                font-weight    : 400;
+                line-height    : 2.5rem;
+                text-align     : left;
+                color          : #fff;
+            }
+        }
+    }
+}

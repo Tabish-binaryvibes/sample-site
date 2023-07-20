@@ -1,0 +1,42 @@
+.circle {
+    background-color: black;
+    width           : 2rem;
+    height          : 2rem;
+    border-radius   : 50%;
+}
+
+.slider {
+    position: relative;
+
+    &:hover {
+        cursor: default;
+    }
+
+    &:hover .arrow_group {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+.slide {
+    img {
+        width  : 100%;
+        padding: 10px;
+    }
+}
+
+.left_arrow {
+    position: absolute;
+    top     : 40%;
+    left    : 14%;
+}
+
+.right_arrow {
+    position: absolute;
+    top     : 40%;
+    right   : 14%;
+}
+
+.arrow_group {
+    display: none;
+}

@@ -1,0 +1,384 @@
+// .features-heading {
+//     letter-spacing: 0.57px;
+//     // color: #2a2473;
+//     color         : white;
+//     opacity       : 1;
+//     font-family   : 'openSansBold';
+//     font-size     : 1rem;
+//     margin-top    : 8px !important;
+// }
+
+// .features-sub-heading {
+//     letter-spacing: 0;
+//     color         : #32353c;
+//     font-family   : 'openSansSemiBold';
+//     letter-spacing: 0.5px;
+//     font-size     : 0.8rem;
+//     color         : white;
+// }
+
+//colors
+.primary {
+    color: #413b8c;
+}
+
+.color-white {
+    color: white;
+}
+
+.primary-bg {
+    background-color: #413b8c;
+}
+
+.secondary {
+    color: #ff4f04;
+}
+
+.secondary-bg {
+    background-color: #ff4f04;
+}
+
+.color-white {
+    color: white;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    width: 100%;
+}
+
+// Padding and Font Sizing
+@for $var from 0 to 20 {
+    .fs-#{$var}rem {
+        font-size: #{$var}rem !important;
+    }
+
+    .fs-#{$var} {
+        font-size: #{$var}px !important;
+    }
+
+    .p-#{$var} {
+        padding: #{$var}px;
+    }
+
+    .px-#{$var}px {
+        padding: 0 #{$var}px;
+    }
+
+    .p-#{$var}rem {
+        padding: #{$var}rem;
+    }
+
+    .pt-#{$var} {
+        padding-top: #{$var}px;
+    }
+
+    .pt-#{$var}rem {
+        padding-top: #{$var}rem;
+    }
+
+    .pb-#{$var} {
+        padding-bottom: #{$var}px;
+    }
+
+    .pb-#{$var}rem {
+        padding-bottom: #{$var}rem;
+    }
+
+    .pl-#{$var} {
+        padding-left: #{$var}px;
+    }
+
+    .pl-#{$var}rem {
+        padding-left: #{$var}rem;
+    }
+
+    .pr-#{$var} {
+        padding-right: #{$var}px;
+    }
+
+    .pr-#{$var}rem {
+        padding-right: #{$var}rem;
+    }
+
+    // margins
+    .m-#{$var} {
+        margin: #{$var}px !important;
+    }
+
+    .m-#{$var}rem {
+        margin: #{$var}rem !important;
+    }
+
+    .mt-#{$var} {
+        margin-top: #{$var}px !important;
+    }
+
+    .mt-#{$var}rem {
+        margin-top: #{$var}rem !important;
+    }
+
+    .mb-#{$var} {
+        margin-bottom: #{$var}px !important;
+    }
+
+    .mb-#{$var}rem {
+        margin-bottom: #{$var}rem !important;
+    }
+
+    .ml-#{$var} {
+        margin-left: #{$var}px !important;
+    }
+
+    .ml-#{$var}rem {
+        margin-left: #{$var}rem !important;
+    }
+
+    .mr-#{$var} {
+        margin-right: #{$var}px !important;
+    }
+
+    .mr-#{$var}rem {
+        margin-right: #{$var}rem !important;
+    }
+
+    .mr-#{$var}rem {
+        margin-right: #{$var}rem !important;
+    }
+
+    .my-#{$var}rem {
+        margin: #{$var}rem 0 !important;
+    }
+
+    .border-radius-#{$var} {
+        border-radius: #{$var}px !important;
+    }
+
+    .lh-#{$var} {
+        line-height: #{$var}px !important;
+    }
+
+    // Responsiveness
+    @media screen and (max-width: 768px) {
+
+        .rp-#{$var} {
+            padding: #{$var}px !important;
+        }
+
+        .rp-#{$var}rem {
+            padding: #{$var}rem !important;
+        }
+
+        .rpt-#{$var} {
+            padding-top: #{$var}px !important;
+        }
+
+        .rpt-#{$var}rem {
+            padding-top: #{$var}rem !important;
+        }
+
+        .rpb-#{$var} {
+            padding-bottom: #{$var}px !important;
+        }
+
+        .rpb-#{$var}rem {
+            padding-bottom: #{$var}rem !important;
+        }
+
+        .rpl-#{$var} {
+            padding-left: #{$var}px !important;
+        }
+
+        .rpl-#{$var}rem {
+            padding-left: #{$var}rem !important;
+        }
+
+        .rpr-#{$var} {
+            padding-right: #{$var}px !important;
+        }
+
+        .rpr-#{$var}rem {
+            padding-right: #{$var}rem !important;
+        }
+
+        .rm-#{$var} {
+            margin: #{$var}px !important;
+        }
+
+        .rm-#{$var}rem {
+            margin: #{$var}rem !important;
+        }
+
+        .rmt-#{$var} {
+            margin-top: #{$var}px !important;
+        }
+
+        .rmt-#{$var}rem {
+            margin-top: #{$var}rem !important;
+        }
+
+        .rmb-#{$var} {
+            margin-bottom: #{$var}px !important;
+        }
+
+        .rmb-#{$var}rem {
+            margin-bottom: #{$var}rem !important;
+        }
+
+        .rml-#{$var} {
+            margin-left: #{$var}px !important;
+        }
+
+        .rml-#{$var}rem {
+            margin-left: #{$var}rem !important;
+        }
+
+        .rmr-#{$var} {
+            margin-right: #{$var}px !important;
+        }
+
+        .rmr-#{$var}rem {
+            margin-right: #{$var}rem !important;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .rjustify-content-center {
+        justify-content: center;
+    }
+
+    .rjustify-content-end {
+        justify-content: flex-end !important;
+    }
+
+    .rd-flex-center {
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+    }
+
+    // .top-section-heading {
+    //     font-size: 1rem !important;
+    // }
+
+    // .slick-list {
+    //     padding-left: 0rem !important;
+    // }
+
+    // .featureContainer {
+    //     padding   : 1rem !important;
+    //     margin-top: 1rem;
+    // }
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+.text-align-end {
+    text-align: end;
+}
+
+
+
+.justify-content-space-between {
+    justify-content: space-between !important;
+}
+
+.justify-content-space-evenly {
+    justify-content: space-evenly !important;
+}
+
+.justify-content-space-around {
+    justify-content: space-around !important;
+}
+
+.theme__color {
+    color: #2C2F6F !important;
+}
+
+.theme__bg__color {
+    background-color: #2C2F6F;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.loadMoreBtn {
+    border-radius: 25px;
+    color        : white;
+    font-size    : 0.9rem;
+    width        : 170px;
+    color        : #2e2d71;
+    cursor       : pointer;
+    padding      : 10px;
+    font-family  : "openSansBold";
+    border       : 2px solid #7b39af;
+    text-align   : center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-end {
+    justify-content: flex-end !important;
+}
+
+.d-flex-center {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.hover {
+    cursor: pointer;
+}
+
+.web-mode {
+    display: block;
+}
+
+.mob-mode {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .web-mode {
+        display: none;
+    }
+
+    .mob-mode {
+        display: block;
+    }
+
+}

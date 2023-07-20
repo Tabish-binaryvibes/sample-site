@@ -1,0 +1,25 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - homepage  # Change this to your main branch name, if different
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Install Dependencies and Build
+        run: |
+          npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist  # Change this to your Next.js build output directory
+
